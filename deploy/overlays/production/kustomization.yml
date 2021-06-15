@@ -1,0 +1,11 @@
+namePrefix: prod-
+commonLabels:
+  app.k8s.io/env: prod
+
+bases:
+- ../../base
+
+patchesStrategicMerge:
+- daemonset.yml
+
+namespace: prod
