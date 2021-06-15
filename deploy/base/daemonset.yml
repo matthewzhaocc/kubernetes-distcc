@@ -6,7 +6,7 @@ metadata:
     app.k8s.io/name: distcc
 spec:
   selector:
-    matchLebels:
+    matchLabels:
       app.k8s.io/name: distcc
   template:
     metadata:
